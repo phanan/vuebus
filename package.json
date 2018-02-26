@@ -1,6 +1,6 @@
 {
   "name": "@phanan/vuebus",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple event bus for Vue",
   "main": "dist/vuebus.min.js",
   "repository": "https://github.com/phanan/vuebus",
