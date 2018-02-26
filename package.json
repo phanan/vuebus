@@ -1,5 +1,5 @@
 {
-  "name": "vuebus",
+  "name": "@phanan/vuebus",
   "version": "0.0.0",
   "description": "A simple event bus for Vue",
   "main": "dist/vuebus.min.js",
@@ -16,5 +16,8 @@
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-node-resolve": "^3.0.3",
     "rollup-plugin-uglify": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
