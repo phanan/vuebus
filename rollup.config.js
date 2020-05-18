@@ -1,17 +1,16 @@
-import babel from 'rollup-plugin-babel'
-import uglify from 'rollup-plugin-uglify'
+import typescript from 'rollup-plugin-typescript2'
+import { terser } from 'rollup-plugin-terser'
 
 export default {
-  input: 'index',
+  input: 'index.ts',
   output: {
     file: 'dist/vuebus.min.js',
     format: 'cjs'
   },
   plugins: [
-    babel({
-      exclude: 'node_modules/**'
-    }),
-    uglify()
+    typescript(),
+    terser()
   ],
-  external: ['vue']
+  external: ['vue'],
+  context: 'this'
 }

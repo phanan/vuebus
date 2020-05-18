@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitThis": false,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "dist"
+  },
+  "include": [
+    "./**/*.ts"
+  ]
+}
