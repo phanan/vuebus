@@ -15,5 +15,4 @@ declare class VueBus {
     register(name?: string): VueBus;
     attach(name?: string): VueBus;
 }
-declare const _default: VueBus;
-export default _default;
+export default VueBus;

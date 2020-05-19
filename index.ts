@@ -61,4 +61,4 @@ class VueBus {
   }
 }
 
-export default new VueBus()
+export default VueBus
