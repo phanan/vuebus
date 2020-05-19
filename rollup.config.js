@@ -5,7 +5,7 @@ export default {
   input: 'index.ts',
   output: {
     file: 'dist/vuebus.min.js',
-    format: 'cjs'
+    format: 'esm'
   },
   plugins: [
     typescript(),
