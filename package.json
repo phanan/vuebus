@@ -1,6 +1,6 @@
 {
   "name": "@phanan/vuebus",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A simple event bus for Vue",
   "main": "dist/vuebus.min.js",
   "types": "dist/index.d.ts",
